@@ -1,0 +1,14 @@
+@charset "utf-8";
+nav {
+    font-size: 20px;
+}
+
+.searchimage {
+    background-color: #ffffff; 
+    border: #ffffff;
+}
+
+.messagelist {
+    padding-left: 0px;
+    padding-right: 0px;
+}
