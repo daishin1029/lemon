@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Lemon</title>
+    </head>
+    <body>
+      <!-- 　ナビゲーションバー -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffe600;">
+            <a class="navbar-brand mb-0 h1">
+              <img src="img/lemon.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+              Lemon
+            </a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+              <form class="form-inliner">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text searchimage" id="basic-addon1">
+                      <img src="img/search.svg" width="25" height="25" alt="">
+                    </span>
+                  </div>
+                  <input type="text" class="form-control pl-0" placeholder="search" aria-label="Username" aria-describedby="basic-addon1" style="border: #ffffff;">
+                </div>
+              </form>
+            </div>  
+            
+              
+            <div class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Disabled</a>
+                </li>
+            </div>
+            
+        </nav>
+    
+        <div class="container">
+          <!-- Message一覧 -->
+          <div class="row py-3">
+            <div class="col-4 order-20 border rounded-left messagelist" id="sticky-sidebar">
+              <div class="sticky-top">
+                <div class="border-bottom d-flex justify-content-center">
+                  <h4>Messages</h4>
+                </div>
+                 <!-- メッセージ本文 -->
+                 <div class="row">
+                  <div class="col">
+                    <table class="w-100">
+                      <td class="border-bottom" id="cbc1" onMouseOver="changeBackgroundColor( 'cbc1', '#eeeeee' )" onMouseOut="changeBackgroundColor( 'cbc1', '#ffffff' )">
+                        <p>Aさん</p>
+                     </td>
+                    </table>
+                  </div>  
+                  <!-- 強制的に改行し次の列を新しい行に -->
+                  <div class="w-100"></div>
+
+                  <div class="col">
+                    <table class="w-100">
+                      <td  class="border-bottom" id="cbc2" onMouseOver="changeBackgroundColor( 'cbc2', '#eeeeee' )" onMouseOut="changeBackgroundColor( 'cbc2', '#ffffff' )">
+                        <p>Bさん</p>
+                     </td>
+                    </table>
+                  </div>  
+                  
+                  <div class="w-100"></div>
+                  <div class="col">
+                    <table class="w-100">
+                      <td  class="border-bottom" id="cbc3" onMouseOver="changeBackgroundColor( 'cbc3', '#eeeeee' )" onMouseOut="changeBackgroundColor( 'cbc3', '#ffffff' )">
+                       <p>Cさん</p>
+                     </td>
+                    </table>
+                  </div>
+                  
+                  <div class="w-100"></div>
+                  <div class="col">
+                    <table class="w-100">
+                      <td  class="border-bottom" id="cbc4" onMouseOver="changeBackgroundColor( 'cbc4', '#eeeeee' )" onMouseOut="changeBackgroundColor( 'cbc4', '#ffffff' )">
+                       <p>Dさん</p>
+                     </td>
+                    </table>
+                  </div>
+                  
+                  <div class="w-100"></div>
+                  <div class="col">
+                    <table class="w-100">
+                      <td  class="border-bottom" id="cbc5" onMouseOver="changeBackgroundColor( 'cbc5', '#eeeeee' )" onMouseOut="changeBackgroundColor( 'cbc5', '#ffffff' )">
+                       <p>Eさん</p>
+                     </td>
+                    </table>
+                  </div>
+                
+                  <div class="w-100"></div>
+                  <div class="col">
+                    <table class="w-100">
+                      <td  class="border-bottom" id="cbc6" onMouseOver="changeBackgroundColor( 'cbc6', '#eeeeee' )" onMouseOut="changeBackgroundColor( 'cbc6', '#ffffff' )">
+                       <p>Fさん</p>
+                     </td>
+                    </table>
+                  </div>
+
+                  <div class="w-100"></div>
+                  <div class="col">
+                    <table class="w-100">
+                      <td  class="border-bottom" id="cbc7" onMouseOver="changeBackgroundColor( 'cbc7', '#eeeeee' )" onMouseOut="changeBackgroundColor( 'cbc7', '#ffffff' )">
+                       <p>Gさん</p>
+                     </td>
+                    </table>
+                  </div>
+
+                  <div class="w-100"></div>
+                  <div class="col">
+                    <table class="w-100">
+                      <td  class="border-bottom" id="cbc8" onMouseOver="changeBackgroundColor( 'cbc8', '#eeeeee' )" onMouseOut="changeBackgroundColor( 'cbc8', '#ffffff' )">
+                       <p>Hさん</p>
+                     </td>
+                    </table>
+                  </div>
+
+                  <div class="w-100"></div>
+                  <div class="col">
+                    <table class="w-100">
+                      <td  class="border-bottom" id="cbc9" onMouseOver="changeBackgroundColor( 'cbc9', '#eeeeee' )" onMouseOut="changeBackgroundColor( 'cbc9', '#ffffff' )">
+                       <p>Iさん</p>
+                     </td>
+                    </table>
+                  </div>
+
+                  <div class="w-100"></div>
+                  <div class="col">
+                    <table class="w-100">
+                      <td  class="border-bottom" id="cbc10" onMouseOver="changeBackgroundColor( 'cbc10', '#eeeeee' )" onMouseOut="changeBackgroundColor( 'cbc10', '#ffffff' )">
+                       <p>Jさん</p>
+                     </td>
+                    </table>
+                  </div>
+
+                  <div class="w-100"></div>
+                  <div class="col">
+                    <table class="w-100">
+                      <td  id="cbc11" onMouseOver="changeBackgroundColor( 'cbc11', '#eeeeee' )" onMouseOut="changeBackgroundColor( 'cbc11', '#ffffff' )">
+                       <p>Kさん</p>
+                     </td>
+                    </table>
+                  </div>
+
+                </div>
+
+              </div>  
+            </div>
+            <!-- Message内容 -->
+            <div class="col border rounded-right" id="main">
+                <p>あの人と一度でも良いから話してみたい。そんなあなたの思いをかなえます！
+                <br>このアプリでは憧れの人のSNSアカウントに貼られたURLをクリックするだけで、その人と繋がることができます。</p> 
+            </div>
+          </div>
+
+        </div>
+        
+        <script type="text/javascript" src="test.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
